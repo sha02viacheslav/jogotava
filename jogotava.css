@@ -10,7 +10,7 @@ body {
   margin: 0;
   color: #707070;
   background: #F7F7F7;
-  font-family: Goldenbook;
+  font-family: Josefin Slab;
 }
 
 p, h2 {
@@ -20,7 +20,6 @@ p, h2 {
 .main-block {
   display: flex;
   flex-direction: column;
-  width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   background: #E6E9EB;
@@ -31,6 +30,7 @@ p, h2 {
 .title {
   font-size: 17px;
   font-weight: normal;
+  letter-spacing: 3px;
   text-align: center;
   padding: 30px 30px;
 }
@@ -46,25 +46,40 @@ p, h2 {
   padding: 0 30px;
 }
 
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile img {
+  width: 65px;
+  margin-bottom: 16px;
+}
+
 .subtitle {
   font-size: 33px;
   border-bottom: 1px solid #707070;
+  color: #313131;
 }
 
-.desp {
+.description {
   margin-top: 16px;
   font-size: 43px;
   margin-bottom: 40px;
+  font-family: Great Vibes;
 }
 
 .right-block {
   display: flex;
   align-items: end;
+  justify-content: end;
 }
 
 .right-block img {
-  width: 100%;
-  margin-top: -25%;
+  width: 90%;
+  margin-top: -20%;
 }
 
 .contact p {
@@ -96,7 +111,7 @@ p, h2 {
 
   .title {
     font-size: 36px;
-    padding: 30px 100px;
+    padding: 48px 100px;
   }
 
   .page-content {
@@ -114,16 +129,27 @@ p, h2 {
   }
 
   .right-block img {
+    width: 100%;
     margin-top: -25%;
+  }
+
+  .profile img {
+    width: 106px;
   }
 
   .subtitle {
     font-size: 44px;
   }
 
-  .desp {
+  .description {
+    margin-top: 24px;
     font-size: 58px;
     margin-bottom: 140px;
+  }
+
+  .contact p {
+    font-size: 26px;
+    margin-bottom: 20px;
   }
 
 }

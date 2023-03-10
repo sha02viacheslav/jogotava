@@ -13,7 +13,7 @@ body {
   font-family: Goldenbook;
 }
 
-p {
+p, h2 {
   margin: 0;
 }
 
@@ -48,9 +48,11 @@ p {
 
 .subtitle {
   font-size: 33px;
+  border-bottom: 1px solid #707070;
 }
 
 .desp {
+  margin-top: 16px;
   font-size: 43px;
   margin-bottom: 40px;
 }
@@ -62,6 +64,7 @@ p {
 
 .right-block img {
   width: 100%;
+  margin-top: -25%;
 }
 
 .contact p {
@@ -86,8 +89,9 @@ p {
   .main-block {
     max-width: 1600px;
     min-height: 80vh;
-    margin: 10vh auto;
+    margin: 24px auto;
     border-radius: 30px;
+    overflow: hidden;
   }
 
   .title {
@@ -107,6 +111,10 @@ p {
 
   .right-block {
     width: 50%;
+  }
+
+  .right-block img {
+    margin-top: -25%;
   }
 
   .subtitle {

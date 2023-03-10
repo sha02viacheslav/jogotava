@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Goldenbook';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('./fonts/goldenbook-regular.otf'),
+  url('./fonts/goldenbook-regular.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  color: #707070;
+  background: #F7F7F7;
+  font-family: Goldenbook;
+}
+
+p {
+  margin: 0;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #E6E9EB;
+  box-shadow: 0px 3px 6px #0000001A;
+  border: 1px solid #E1E1E1;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.page-content  {
+  flex: 1;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.subtitle {
+  font-size: 33px;
+}
+
+.desp {
+  font-size: 43px;
+  margin-bottom: 40px;
+}
+
+.right-block {
+  display: flex;
+  align-items: end;
+}
+
+.right-block img {
+  width: 100%;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact .fa {
+  margin-right: 16px;
+  background: #313131;
+  color: white;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 34px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .main-block {
+    max-width: 1600px;
+    min-height: 80vh;
+    margin: 10vh auto;
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 36px;
+    padding: 30px 100px;
+  }
+
+  .page-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-block {
+    padding-left: 100px;
+    width: fit-content;
+  }
+
+  .right-block {
+    width: 50%;
+  }
+
+  .subtitle {
+    font-size: 44px;
+  }
+
+  .desp {
+    font-size: 58px;
+    margin-bottom: 140px;
+  }
+
+}

@@ -6,6 +6,14 @@
   url('./fonts/goldenbook-regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'MrsSaintDelafield';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('./fonts/MrsSaintDelafield-Regular.ttf'),
+  url('./fonts/MrsSaintDelafield-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   color: #707070;
@@ -67,8 +75,9 @@ p, h2 {
 .description {
   margin-top: 16px;
   font-size: 43px;
+  letter-spacing: 6px;
   margin-bottom: 40px;
-  font-family: Great Vibes;
+  font-family: MrsSaintDelafield;
 }
 
 .right-block {
@@ -83,21 +92,16 @@ p, h2 {
 }
 
 .contact p {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.contact .fa {
+.contact img {
   margin-right: 16px;
-  background: #313131;
-  color: white;
   width: 34px;
   height: 34px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 34px;
-  vertical-align: middle;
-  font-size: 20px;
 }
 
 @media (min-width: 768px) {
